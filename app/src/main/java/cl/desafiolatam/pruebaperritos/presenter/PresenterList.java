@@ -1,4 +1,19 @@
 package cl.desafiolatam.pruebaperritos.presenter;
 
-public class PresenterList {
+import java.util.List;
+
+public class PresenterList implements IPresenterList, IPresenterModel{
+
+    @Override
+    public void loadBreeds() {
+
+    }
+
+    @Override
+    public void notificar(List<String> breeds) {
+
+    }
+
+    public interface IPressenterViewList {
+    }
 }
